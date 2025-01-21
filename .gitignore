@@ -1,0 +1,18 @@
+# Build dizinleri
+build/
+**/build/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Derlenmiş dosyalar
+*.o
+*.out
+shm_writer
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
