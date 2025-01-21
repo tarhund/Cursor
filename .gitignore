@@ -1,7 +1,7 @@
 # Build dizinleri
 build/
 **/build/
-
+photos/
 # IDE ve editör dosyaları
 .vscode/
 .idea/
