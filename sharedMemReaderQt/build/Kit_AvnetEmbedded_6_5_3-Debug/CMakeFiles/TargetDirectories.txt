@@ -1,0 +1,9 @@
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/camera-viewer.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/edit_cache.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/rebuild_cache.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/list_install_components.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/install.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/install/local.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/install/strip.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/camera-viewer_autogen_timestamp_deps.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/CMakeFiles/camera-viewer_autogen.dir

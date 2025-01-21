@@ -1,0 +1,450 @@
+The target system is: Linux -  - aarch64
+The host system is: Linux - 5.15.0-130-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc -mcpu=cortex-a72.cortex-a53;-march=armv8-a+crc+crypto;-fstack-protector-strong;-O2;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/3.22.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ -mcpu=cortex-a72.cortex-a53;-march=armv8-a+crc+crypto;-fstack-protector-strong;-O2;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/3.22.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_b3954/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_b3954.dir/build.make CMakeFiles/cmTC_b3954.dir/build
+make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -c /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+Target: aarch64-poky-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b3954.dir/'
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/cc1 -quiet -v -isysroot /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux -D _FORTIFY_SOURCE=2 /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3954.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -mlittle-endian -mabi=lp64 -g -O2 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8-a+crc+crypto -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.38 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.38.20220708
+GNU C17 (GCC) version 11.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/local/include"
+ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/
+End of search list.
+GNU C17 (GCC) version 11.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6c1829113e710b0a25d82b2805448a97
+COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b3954
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3954.dir/link.txt --verbose=1
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -o cmTC_b3954 
+Using built-in specs.
+COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+COLLECT_LTO_WRAPPER=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b3954' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b3954.'
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2 -plugin /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfUKXvK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b3954 /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o -L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b3954' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b3954.'
+make[1]: Leaving directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+    add: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include]
+  implicit include dirs: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include;/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_b3954/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_b3954.dir/build.make CMakeFiles/cmTC_b3954.dir/build]
+  ignore line: [make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -c /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b3954.dir/']
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/cc1 -quiet -v -isysroot /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux -D _FORTIFY_SOURCE=2 /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3954.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -mlittle-endian -mabi=lp64 -g -O2 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8-a+crc+crypto -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.38 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.38.20220708]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6c1829113e710b0a25d82b2805448a97]
+  ignore line: [COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b3954]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3954.dir/link.txt --verbose=1]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -o cmTC_b3954 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b3954' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b3954.']
+  link line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2 -plugin /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfUKXvK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b3954 /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o -L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+    arg [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfUKXvK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b3954] ==> ignore
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o]
+    arg [-L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0] ==> dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_b3954.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+  implicit dirs: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_b7088/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_b7088.dir/build.make CMakeFiles/cmTC_b7088.dir/build
+make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -c /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+Target: aarch64-poky-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b7088.dir/'
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/cc1plus -quiet -v -isysroot /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7088.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -mlittle-endian -mabi=lp64 -g -O2 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8-a+crc+crypto -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.38 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.38.20220708
+GNU C++17 (GCC) version 11.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/local/include"
+ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed
+ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/
+End of search list.
+GNU C++17 (GCC) version 11.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7991f3a1f4b279a5c17a15102eef7852
+COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_b7088
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7088.dir/link.txt --verbose=1
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b7088 
+Using built-in specs.
+COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+COLLECT_LTO_WRAPPER=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b7088' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b7088.'
+ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2 -plugin /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs10wtV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b7088 /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o -L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b7088' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b7088.'
+make[1]: Leaving directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward]
+    add: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+    add: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+    add: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+  collapse include dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include]
+  implicit include dirs: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward;/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include;/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_b7088/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_b7088.dir/build.make CMakeFiles/cmTC_b7088.dir/build]
+  ignore line: [make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -c /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b7088.dir/']
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/cc1plus -quiet -v -isysroot /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7088.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -mlittle-endian -mabi=lp64 -g -O2 -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8-a+crc+crypto -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.38 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.38.20220708]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/aarch64-poky-linux]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/c++/11.3.0/backward]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/include]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/include-fixed]
+  ignore line: [ /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7991f3a1f4b279a5c17a15102eef7852]
+  ignore line: [COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_b7088]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7088.dir/link.txt --verbose=1]
+  ignore line: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b7088 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/src/msc-ldk/build/01032/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/:/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a72.cortex-a53' '-march=armv8-a+crc+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_b7088' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b7088.']
+  link line: [ /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2 -plugin /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs10wtV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_b7088 /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o -L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0 -L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o /opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+    arg [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccs10wtV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b7088] ==> ignore
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o]
+    arg [-L/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0] ==> dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0]
+    arg [-L/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib] ==> dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_b7088.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o]
+    arg [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o] ==> obj [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0] ==> [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0]
+  collapse library dir [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib] ==> [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/Scrt1.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crti.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtbeginS.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0/crtendS.o;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/crtn.o]
+  implicit dirs: [/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/11.3.0;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/lib;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib/aarch64-poky-linux/11.3.0;/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_fc77a/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_fc77a.dir/build.make CMakeFiles/cmTC_fc77a.dir/build
+make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc77a.dir/CheckIncludeFile.c.o
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types   -o CMakeFiles/cmTC_fc77a.dir/CheckIncludeFile.c.o -c /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc77a
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc77a.dir/link.txt --verbose=1
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now  CMakeFiles/cmTC_fc77a.dir/CheckIncludeFile.c.o -o cmTC_fc77a 
+make[1]: Leaving directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make -f Makefile cmTC_5ade9/fast && /opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_5ade9.dir/build.make CMakeFiles/cmTC_5ade9.dir/build
+make[1]: Entering directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ade9.dir/src.c.o
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux -DCMAKE_HAVE_LIBC_PTHREAD  -O2 -pipe -g -feliminate-unused-debug-types   -o CMakeFiles/cmTC_5ade9.dir/src.c.o -c /home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5ade9
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ade9.dir/link.txt --verbose=1
+/opt/avnet_6_5_3/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a72.cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux --sysroot=/opt/avnet_6_5_3/sysroots/cortexa72-cortexa53-crypto-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now  CMakeFiles/cmTC_5ade9.dir/src.c.o -o cmTC_5ade9 
+make[1]: Leaving directory '/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

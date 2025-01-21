@@ -1,0 +1,3 @@
+/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/shm_writer.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/edit_cache.dir
+/home/oarmutcu/Workspace/Cursor/sharedMemWriter/build/CMakeFiles/rebuild_cache.dir

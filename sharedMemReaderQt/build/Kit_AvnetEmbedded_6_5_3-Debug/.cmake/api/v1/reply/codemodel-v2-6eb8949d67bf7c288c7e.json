@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d51d9c03a835c1368523.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "camera-viewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "camera-viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera-viewer-Debug-eebd4494794d47ea466b.json",
+					"name" : "camera-viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera-viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera-viewer_autogen-Debug-d89eec0392af1bb929d5.json",
+					"name" : "camera-viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera-viewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera-viewer_autogen_timestamp_deps-Debug-21be9d3dc9c6fc51ae22.json",
+					"name" : "camera-viewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug",
+		"source" : "/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

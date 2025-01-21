@@ -1,0 +1,11 @@
+# ninja log v6
+2	152	1737467449490124700	camera-viewer_autogen/timestamp	900af3d175bbc172
+2	152	1737467449490124700	camera-viewer_autogen/mocs_compilation.cpp	900af3d175bbc172
+2	152	1737467449490124700	/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/camera-viewer_autogen/timestamp	900af3d175bbc172
+2	152	1737467449490124700	/home/oarmutcu/Workspace/Cursor/sharedMemReaderQt/build/Kit_AvnetEmbedded_6_5_3-Debug/camera-viewer_autogen/mocs_compilation.cpp	900af3d175bbc172
+153	1089	1737467449498124705	CMakeFiles/camera-viewer.dir/camera-viewer_autogen/mocs_compilation.cpp.o	869f3c985e80cb8d
+153	1097	1737467449498124705	CMakeFiles/camera-viewer.dir/src/main.cpp.o	f87ea8b0150f9b2
+1097	1225	1737467450442125334	camera-viewer	1ca92e63af213a59
+1225	1229	1737467450570125420	CMakeFiles/install.util	599e89c2e4c0a7fc
+4	9	1737467451634126125	CMakeFiles/install.util	599e89c2e4c0a7fc
+3	7	1737467554094183941	CMakeFiles/install.util	599e89c2e4c0a7fc
