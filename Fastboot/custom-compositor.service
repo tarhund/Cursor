@@ -1,0 +1,25 @@
+[Unit]
+Description=Custom Qt Wayland Compositor
+DefaultDependencies=no
+Conflicts=shutdown.target
+Before=graphical.target
+After=local-fs.target
+Wants=local-fs.target
+
+[Service]
+Environment="QT_QPA_EGLFS_KMS_CONFIG=/home/root/eglfs.json"
+Environment="XDG_RUNTIME_DIR=/home/run/user/0"
+Environment="QT_LOGGING_RULES=*.debug=false"
+Environment="QT_QPA_EGLFS_ALWAYS_SET_MODE=1"
+Environment="QT_QPA_EGLFS_FORCE888=1"
+Environment="QML_DISABLE_DISK_CACHE=1"
+ExecStart=/home/root/customcompositor -platform eglfs
+Type=simple
+Nice=-10
+Restart=always
+RestartSec=1
+
+ConditionPathExists=/dev/dri/card1
+
+[Install]
+WantedBy=multi-user.target

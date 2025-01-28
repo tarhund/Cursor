@@ -1,7 +1,7 @@
 # Build dizinleri
 build/
 **/build/
-photos/
+
 # IDE ve editör dosyaları
 .vscode/
 .idea/
@@ -16,3 +16,7 @@ shm_writer
 # Sistem dosyaları
 .DS_Store
 Thumbs.db
+
+# Fotoğraf klasörü
+photos/
+**/photos/
